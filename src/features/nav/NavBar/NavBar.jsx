@@ -27,6 +27,7 @@ import SignedInMenu from '../Menus/SignedInMenu'
                       </Menu.Item>
                       <Menu.Item as={NavLink} to='/events' name="Events" />
                       <Menu.Item as={NavLink} to='/people' name="People" />
+                      <Menu.Item as={NavLink} to='/test' name="TestComponent" />
                       <Menu.Item as={Link} to='/createEvent'>
                         <Button floated="right" positive inverted content="Create Event" />
                       </Menu.Item>
